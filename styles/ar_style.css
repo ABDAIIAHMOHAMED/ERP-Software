@@ -1,0 +1,174 @@
+body {
+  direction: rtl;
+}
+
+.lside {
+  border-right: 0;
+  right: 0;
+  left: auto;
+  border-left: 1px solid #cfcfcf;
+}
+
+.lside .sidebar ul li .active-menu {
+  border-left: 0;
+}
+
+.rside {
+  margin-right: 60px;
+  margin-left: 0;
+}
+
+.header {
+  right: auto;
+  left: 0;
+}
+
+.profile ul li a i {
+  margin-left: 12px;
+  margin-right: 0;
+}
+
+.lside .logo {
+  direction: ltr;
+}
+
+
+.lside .sidebar ul li a.ar {
+  padding-left: 0px !important;
+  padding-right: 25px !important;
+}
+
+.lside .sidebar ul li a span span {
+  margin-right: 15px;
+  margin-left: 0px;
+}
+
+.lside .sidebar ul>li:hover>a {
+  padding-right: 35px !important;
+}
+
+.lside .sidebar ul li a span.arrow {
+  left: 15px;
+  right: auto;
+}
+
+.lside .sidebar ul li a span {
+  font-size: 0.95rem;
+}
+
+select {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, gray 50%), linear-gradient(135deg, gray 50%, transparent 50%), linear-gradient(to right, rgba(204, 204, 204, 0), rgba(204, 204, 204, 0));
+  background-position: calc(0% + 20px) calc(1em + 2px), calc(0% + 25px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+  background-size: 5px 5px, 5px 5px, 1px 1.5em;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+select:focus {
+  background-image: linear-gradient(45deg, var(--main-color) 50%, transparent 50%), linear-gradient(135deg, transparent 50%, var(--main-color) 50%), linear-gradient(to right, rgba(204, 204, 204, 0), rgba(204, 204, 204, 0));
+  background-position: calc(0% + 25px) calc(1em + 2px), calc(0% + 20px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+  background-size: 5px 5px, 5px 5px, 1px 1.5em;
+  background-repeat: no-repeat;
+}
+
+table.dataTable thead>tr>th.sorting:before,
+table.dataTable thead>tr>th.sorting:after,
+table.dataTable thead>tr>th.sorting_asc:before,
+table.dataTable thead>tr>th.sorting_asc:after,
+table.dataTable thead>tr>th.sorting_desc:before,
+table.dataTable thead>tr>th.sorting_desc:after,
+table.dataTable thead>tr>th.sorting_asc_disabled:before,
+table.dataTable thead>tr>th.sorting_asc_disabled:after,
+table.dataTable thead>tr>th.sorting_desc_disabled:before,
+table.dataTable thead>tr>th.sorting_desc_disabled:after,
+table.dataTable thead>tr>td.sorting:before,
+table.dataTable thead>tr>td.sorting:after,
+table.dataTable thead>tr>td.sorting_asc:before,
+table.dataTable thead>tr>td.sorting_asc:after,
+table.dataTable thead>tr>td.sorting_desc:before,
+table.dataTable thead>tr>td.sorting_desc:after,
+table.dataTable thead>tr>td.sorting_asc_disabled:before,
+table.dataTable thead>tr>td.sorting_asc_disabled:after,
+table.dataTable thead>tr>td.sorting_desc_disabled:before,
+table.dataTable thead>tr>td.sorting_desc_disabled:after {
+  right: auto;
+  left: 10px;
+}
+
+table.dataTable thead>tr>th,
+table.dataTable thead>tr>td {
+  text-align: right;
+}
+
+input.delete-btn {
+  left: auto;
+  right: 0;
+}
+
+thead th:last-child,
+tbody td:last-child {
+  border-right: 1px dotted #c7c7c7;
+  border-left: 0;
+}
+
+.dt-body-right a {
+  margin: 0;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+
+table.dataTable tbody th.dt-body-right,
+table.dataTable tbody td.dt-body-right {
+  position: relative;
+  text-align: left;
+}
+
+table.dataTable thead>tr>th.dt-body-right,
+table.dataTable thead>tr>td.dt-body-right {
+  text-align: left;
+}
+
+.dataTables_wrapper .dataTables_paginate {
+
+  direction: ltr;
+}
+
+.copyright-section {
+  direction: ltr;
+}
+
+.img-frame {
+  margin-right: 0px;
+  margin-left: 10px;
+}
+
+.lside .logo span {
+  font-family: 'Cairo';
+}
+
+ul.emp-sum .name {
+  margin-right: 7px;
+  margin-left: 0px;
+}
+
+.input-box span {
+  right: 0;
+  left: auto;
+}
+
+.input-box input:valid~span,
+.input-box input:focus~span {
+  right: 30px;
+}
+
+.change-lang-login {
+  right: 20px;
+  left: auto;
+}
